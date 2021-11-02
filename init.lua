@@ -11,5 +11,9 @@ require('autopairs-config')
 require('vsnip-config')
 require('toggleterm-config')
 require('escape-config')
+require('onedarker')
 
-vim.cmd('colorscheme everforest')
+vim.cmd[[
+set background=dark
+colorscheme onedarker
+]]
