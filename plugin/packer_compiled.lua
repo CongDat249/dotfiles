@@ -71,99 +71,133 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["better-escape.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/better-escape.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/better-escape.nvim",
+    url = "https://github.com/max397574/better-escape.nvim"
   },
   ["bufferline.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/bufferline.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-cmdline"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-path"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
   ["cmp-vsnip"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   everforest = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/everforest"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
+  ["feline.nvim"] = {
+    loaded = true,
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/feline.nvim",
+    url = "https://github.com/famiu/feline.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
   },
-  ["lualine.nvim"] = {
+  ["nlsp-settings.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nlsp-settings.nvim",
+    url = "https://github.com/tamago324/nlsp-settings.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-comment"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-comment"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-lspinstall"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-lspinstall"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-lspinstall",
+    url = "https://github.com/kabouzeid/nvim-lspinstall"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["onedark.vim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/onedark.vim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/packer.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/toggleterm.nvim"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/zoe/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 

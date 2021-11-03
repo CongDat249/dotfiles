@@ -26,7 +26,8 @@ return require('packer').startup(function()
   use 'hrsh7th/vim-vsnip'
   
   -- UI component
-  use {'nvim-lualine/lualine.nvim', requires = {'kyazdani42/nvim-web-devicons', opt = true}} -- status bar
+   
+  use 'famiu/feline.nvim'
   use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'} -- tab bar
   use {'kyazdani42/nvim-tree.lua', requires = 'kyazdani42/nvim-web-devicons',} -- file browser
   

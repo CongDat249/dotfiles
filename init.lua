@@ -1,7 +1,7 @@
 require('plugins')
 require('options')
 require('keybindings')
-require('lualine-config')
+require('feline-config')
 require('treesitter-config')
 require('bufferline-config')
 require('nvimtree-config')
