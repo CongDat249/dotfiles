@@ -10,6 +10,7 @@ return require('packer').startup(function()
   use 'neovim/nvim-lspconfig'
   use 'kabouzeid/nvim-lspinstall' -- quick install lsp
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"} -- hightlight code 
+  use 'tamago324/nlsp-settings.nvim'
   
   -- Autocomplete
   use 'hrsh7th/cmp-nvim-lsp'
@@ -40,4 +41,8 @@ return require('packer').startup(function()
   
   -- Comment
   use "terrortylor/nvim-comment"
+
+  
+-- Lua
+  use { "folke/which-key.nvim" }
 end)

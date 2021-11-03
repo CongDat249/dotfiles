@@ -1,4 +1,7 @@
-vim.cmd('filetype plugin indent on')
+vim.cmd[[
+filetype plugin indent on
+set foldmethod=manual
+]]
 vim.o.shortmess = vim.o.shortmess .. 'c'
 vim.o.hidden = true
 vim.o.whichwrap = 'b,s,<,>,[,],h,l'
@@ -13,8 +16,8 @@ vim.o.showtabline = 2
 vim.o.showmode = false
 vim.o.backup = false
 vim.o.writebackup = false
-vim.o.updatetime = 300 
-vim.o.timeoutlen = 1000
+vim.o.updatetime = 500 
+vim.o.timeoutlen = 500 
 vim.o.clipboard = 'unnamedplus'
 vim.o.hlsearch = false
 vim.o.ignorecase = true

@@ -15,14 +15,9 @@ map('v', 'K', '5k', opt)
 
 map('n', '<leader>w', ':w<CR>', opt)
 map('n', '<C-s>', ':source%<CR>', opt)
-map('n', '<leader>q', ':q!<CR>', opt)
 
 --Map to move tab
 map('n', '<C-w>', ':bd<CR>', opt)
-
--- Map in bufferline
---map('n', '<TAB>', ':bnext<CR>', opt)
---map('n', '<S-TAB>', ':bprev<CR>', opt)
 
 --Focus
 map('n', '<C-h>', '<C-w>h', opt)
@@ -34,13 +29,9 @@ map('n', '<C-j>', '<C-w>j', opt)
 map('n', '<C-\\>', ':vsp<CR>', opt) 
 
 --Resize
--- nnoremap <M-Right> :vertical resize +1<CR>
--- nnoremap <M-Left> :vertical resize -1<CR>
--- nnoremap <M-Down> :resize +1<CR>
--- nnoremap <M-Up> :resize -1<CR>
+map('n', '<Right>', ':vertical resize +1<cr>', opt)
+map('n', '<Left>', ':vertical resize -1<cr>', opt)
+map('n', '<Down>', ':resize +1<cr>', opt)
+map('n', '<Up>', ':resize -1<cr>', opt)
 
---Vista
-map('n', '<leader>o', ':Vista finder<CR>', opt) 
-
---Change directory to current file
---nnoremap <leader>cd :cd %:p:h<CR>
+map('n', '<leader>u', ':lua folding()<cr>', opt)

@@ -4,8 +4,6 @@ nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
 ]]
 
--- following options are the default
--- each of these are documented in `:help nvim-tree.OPTION_NAME`
 require'nvim-tree'.setup {
   disable_netrw       = true,
   hijack_netrw        = true,
@@ -14,13 +12,13 @@ require'nvim-tree'.setup {
   auto_close          = true,
   open_on_tab         = false,
   hijack_cursor       = false,
-  update_cwd          = false,
+  update_cwd          = true,
   update_to_buf_dir   = {
     enable = true,
     auto_open = true,
   },
   diagnostics = {
-    enable = false,
+    enable = true,
     icons = {
       hint = "",
       info = "",
@@ -30,7 +28,7 @@ require'nvim-tree'.setup {
   },
   update_focused_file = {
     enable      = false,
-    update_cwd  = false,
+    update_cwd  = true,
     ignore_list = {}
   },
   system_open = {
@@ -38,7 +36,7 @@ require'nvim-tree'.setup {
     args = {}
   },
   filters = {
-    dotfiles = false,
+    dotfiles = true,
     custom = {}
   },
   view = {

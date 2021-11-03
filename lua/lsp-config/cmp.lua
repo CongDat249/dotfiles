@@ -29,7 +29,6 @@ cmp.setup({
     ['<C-p>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
   sources = {
     { name = 'nvim_lsp' },
-
     -- For vsnip user.
     { name = 'vsnip' },
 

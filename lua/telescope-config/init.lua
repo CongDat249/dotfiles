@@ -94,6 +94,5 @@ vim.api.nvim_set_keymap('n', 'gr', '<cmd> Telescope lsp_references<CR>', { norem
 vim.api.nvim_set_keymap('n', '<leader>o', '<cmd> Telescope lsp_document_symbols<CR>', { noremap = true})
 vim.api.nvim_set_keymap('n', '<leader>e', '<cmd> Telescope lsp_document_diagnostics<CR>', { noremap = true})
 
-vim.api.nvim_set_keymap('n', '<leader>rn', ':lua vim.lsp.buf.rename()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<C-k>', ':lua vim.lsp.buf.formatting()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('i', '<C-k>', ':lua vim.lsp.buf.formatting()<CR>', { noremap = true, silent = true })
