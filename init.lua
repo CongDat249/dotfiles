@@ -1,7 +1,7 @@
 require('plugins')
 require('options')
 require('keybindings')
-require('feline-config')
+require('lualine-config')
 require('treesitter-config')
 require('bufferline-config')
 require('nvimtree-config')
@@ -14,3 +14,9 @@ require('escape-config')
 require('whichkey-config')
 require('comment-config')
 require('onedarker')
+
+vim.cmd[[
+    set background=dark
+    set termguicolors
+    colorscheme onedarker
+]]

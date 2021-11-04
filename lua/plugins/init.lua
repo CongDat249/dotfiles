@@ -27,7 +27,7 @@ return require('packer').startup(function()
   
   -- UI component
    
-  use 'famiu/feline.nvim'
+  use 'nvim-lualine/lualine.nvim'
   use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'} -- tab bar
   use {'kyazdani42/nvim-tree.lua', requires = 'kyazdani42/nvim-web-devicons',} -- file browser
   
@@ -43,7 +43,7 @@ return require('packer').startup(function()
   -- Comment
   use "terrortylor/nvim-comment"
 
-  
 -- Lua
   use { "folke/which-key.nvim" }
+
 end)
